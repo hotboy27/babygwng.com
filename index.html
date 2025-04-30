@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<!--align with all devices-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gWngshWt.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--navigation bar with links to image gallery, home page (index), and platform links-->
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <a href="gallery.html" style="color: #000000; text-decoration: none;"><img src="files/gifbabygwng2.gif" alt="cover"></a>
+             <li class="egg">  <a href=index.html><img  width="400"  src="files/gwngshwtcom.png" alt="logo"></a></li>
+            <li class="egg"> <a href="linkspage.html" style="color: #000000; text-decoration: none;"> <img width="400"  src="files/links.png" alt="links"></a></li>
+        </ul>
+    </nav>
+    <!--the song player with functioning queue and play pause skip buttons-->
+    <!--plays three ambient tracks with a functioning progress bar that is clickable to skip around in the songs-->
+ <div class="egg">
+    <div class="player">
+        <div class="main">
+            <audio></audio>
+            <div class="thumbnail">
+                <img src="./files/babygwng2coverupscaled.jpg">
+            </div>
+            <div class="seekbar">
+                <input type="range" name="">
+            </div>
+            <div class="details">
+                <h2>Songname</h2>
+                <p>Artistname</p>
+            </div>
+            <div class="controls">
+                <div class="prev-control">
+                    <i class="fa fa-backward"></i>
+                </div>
+                <div class="play-pause-control paused">
+                    <i class="fa fa-play"></i>
+                    <i class="fa fa-pause"></i>
+                </div>
+                <div class="next-control">
+                    <i class="fa fa-forward"></i>
+                </div>
+            </div>
+        </div>
+        <div class="player-list">
+            <div class="toggle-list">
+                <i class="fa fa-angle-up"></i>
+                <i class="fa fa-angle-down"></i>
+            </div>
+            <div class="list">
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="./files/babygwng2coverupscaled.jpg">
+                    </div>
+                    <div class="details">
+                        <h2>Songname</h2>
+                        <p>Artistname</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="files/babygwng2coverupscaled.jpg">
+                    </div>
+                    <div class="details">
+                        <h2>Songname</h2>
+                        <p>Artistname</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--javascript and fontawesome icons-->
+    <script type="text/javascript" src="code.js"></script>
+    <script src="https://kit.fontawesome.com/1410745302.js" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
